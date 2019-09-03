@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plassering i bokse</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            height: 500px;
+            margin: 50px auto;
+            border: 2px solid orange;
+            
+
+            display: grid;
+            grid-row-gap: 2px;
+
+            /* Plassere innhold */
+            align-content: end;
+            
+
+        }
+
+        .container h1, .container h2 {
+            padding: 16px 32px;
+            background-color: aqua;
+        }
+
+        .container h1 {
+            justify-self: start;
+        }
+        .container h2 {
+            justify-self: end;
+        }
+    </style>
+</head>
+<body>
+    
+    <article class="container">
+        <h1>The imminent great near future...</h1>
+        <h2>...is perhaps now...</h2>
+        <h1>The imminent great near future...</h1>
+        <h2>...is perhaps now...</h2>
+        <h1>The imminent great near future...</h1>
+        <h2>...is perhaps now...</h2>
+    </article>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    max-width: 1400px;
+    margin: auto;
+    padding: 1.6rem;
+}
+
+#a-1 { background-image: url(./images/img-1.jpeg); }
+#a-2 { background-image: url(./images/img-2.jpeg); }
+#a-3 { background-image: none; }
+#a-4 { background-image: url(./images/img-3.jpeg); }
+#a-5 { background-image: url(./images/img-4.jpeg); }
+#a-6 { background-image: url(./images/img-5.jpeg); }
+#a-7 { background-image: url(./images/img-6.jpeg); }
+#a-8 { background-image: url(./images/img-7.jpeg); }
+#a-9 { background-image: url(./images/img-8.jpeg); }
+#a-10 { background-image: url(./images/img-9.jpeg); }
+#a-11 { background-image: url(./images/img-10.jpeg); }
+#a-12 { background-image: url(./images/img-11.jpeg); }
+#a-13 { background-image: none; }
